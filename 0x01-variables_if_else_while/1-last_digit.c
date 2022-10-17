@@ -1,14 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+ #include <stdlib.h>
+ #include <time.h>
+ #include <stdio.h>
 
-/**
- * main - Determines either greater than 5, is less than 6, or is 0
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
+ /**
+  * main - Determines either greater than 5, is less than 6, or is 0
+  *
+  * Return: Always 0 (Success)
+  */
+ int main(void)
+ {
 	int n, l;
 
 	srand(time(0));
@@ -27,4 +27,4 @@ int main(void)
 	        printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
         return (0);
-}
+ }
