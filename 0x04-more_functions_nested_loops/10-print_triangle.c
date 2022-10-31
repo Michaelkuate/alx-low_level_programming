@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * print_triangle - check for a digit
 * @size : integer type
@@ -17,7 +18,12 @@ while (ii < size - i)
 _putchar(' ');
 ii++;
 }
-
+ii = 0;
+while (ii < i)
+{
+_putchar('#');
+ii++;
+}
 _putchar('\n');
 i++;
 }
