@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <unistd.h>
 /**
 * main - Entry point
@@ -24,4 +24,3 @@ putchar(' ');
 putchar('\n');
 return (0);
 }
-
